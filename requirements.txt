@@ -38,3 +38,12 @@ typing-inspection==0.4.1
 typing_extensions==4.14.1
 urllib3==2.5.0
 uvicorn==0.35.0
+
+# Audio Generation (needs >= 1.9.0 for text_to_sound_effects)
+elevenlabs>=1.9.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Additional dependencies
+pydantic-settings==2.1.0
